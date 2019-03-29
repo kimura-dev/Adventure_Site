@@ -1,0 +1,18 @@
+/* Basic Resets */
+* {
+  margin: 0;
+  padding: 0;
+  /* will inherit from the body, better practice */
+  box-sizing: inherit;
+}
+
+html {
+  /* Now we now that 1 rem equals exactly 10px */
+  /* Default is 16 pixels so 62.5% is 10pixels :) */
+  // Defines what 1 rem is
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
