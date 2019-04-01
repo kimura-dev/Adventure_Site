@@ -214,6 +214,13 @@ body {
   .feature-box:hover {
     transform: translateY(-1.5rem) scale(1.03); }
 
+.card {
+  background-color: red;
+  height: 50rem;
+  transition: all .8s; }
+  .card:hover {
+    transform: rotateX(180); }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
